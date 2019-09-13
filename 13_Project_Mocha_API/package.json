@@ -1,0 +1,35 @@
+{
+  "name": "13_project_mocha_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "4.5.x",
+    "faker": "^4.1.0",
+    "mongoose": "5.0.x",
+    "nconf": "0.10.x",
+    "oauth2orize": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2",
+    "winston": "2.4.x"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.19.2",
+    "nyc": "^14.1.1",
+    "superagent": "^3.8.x",
+    "supertest": "^3.0.0",
+    "tape": "^4.9.x"
+  }
+}
