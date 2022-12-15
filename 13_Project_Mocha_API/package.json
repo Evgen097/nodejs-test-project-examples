@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "4.5.x",
+    "express": "4.17.x",
     "faker": "^4.1.0",
     "mongoose": "5.0.x",
     "nconf": "0.10.x",
